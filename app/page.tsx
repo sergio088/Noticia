@@ -37,7 +37,7 @@ export default async function Page() {
         <aside className="right-col">
           <VideoPlayer
             title="Vídeo em destaque"
-            src="/videos/sample-video.mp4"
+            src="https://youtu.be/9HXxn66WpN8?si=PEn9uptYHS1Hz-_Z"
             poster="/sample-thumb.jpg"
           />
         </aside>
