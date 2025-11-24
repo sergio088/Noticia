@@ -13,13 +13,32 @@ export const viewport = {
 };
 
 export default async function Page() {
- const res = await fetch("http://localhost:3000/api/news", {
-  cache: "no-store"
-});
+  const base = process.env.NEXT_PUBLIC_BASE_URL ?? "";
+  let json: { success?: boolean; data?: News[] } = { success: false, data: [] };
 
+  try {
+    const res = await fetch(`${base}/api/news`, { cache: "no-store" });
 
-  const json = await res.json().catch(() => ({ success: false, data: [] }));
-  const initialNews: News[] = json && json.success ? json.data : [];
+    if (!res.ok) {
+      // Log response for debugging but keep default empty data to avoid throwing
+      try {
+        const body = await res.text();
+        console.error("Failed fetching /api/news:", res.status, body);
+      } catch (e) {
+        console.error("Failed fetching /api/news and could not read body:", e);
+      }
+    } else {
+      const parsed = await res.json();
+      if (parsed && typeof parsed === "object") {
+        json = parsed as { success?: boolean; data?: News[] };
+      }
+    }
+  } catch (err) {
+    // Network or other unexpected error; log and continue with empty data
+    console.error("Error fetching news:", err);
+  }
+
+  const initialNews: News[] = json && json.success ? json.data ?? [] : [];
 
   return (
     <div className="container">
