@@ -1,26 +1,82 @@
 [
   {
     "id": 1,
-    "title": "Avanços na Tecnologia Biónica",
-    "excerpt": "Pesquisadores anunciam prótese que adapta força automaticamente.",
+    "title": "Brasil é o país que mais aposta em IA, revela pesquisa da SAP",
+    "excerpt": "Quase metade das empresas brasileiras já viu retorno com IA em 2024 e 62% planejam aumentar os investimentos em 2025",
     "content": "Conteúdo completo da notícia 1...",
     "videoUrl": "/videos/sample-video.mp4",
-    "thumbnail": "/sample-thumb.jpg"
+    "thumbnail": "/jovens-no-pc.jpg"
   },
   {
     "id": 2,
-    "title": "Economia Local Cresce 3%",
-    "excerpt": "Setor de serviços impulsiona crescimento no último trimestre.",
+    "title": "O salto da inteligência artificial nas indústrias brasileiras em 2025",
+    "excerpt": "Uso de IA nas empresas industriais cresceu 163% de 2022 a 2024, segundo dados do IBGE",
     "content": "Conteúdo completo da notícia 2...",
     "videoUrl": "",
-    "thumbnail": "/sample-thumb.jpg"
+    "thumbnail": "/IA.jpg"
   },
   {
     "id": 3,
-    "title": "Festival Cultural Reúne Artistas",
-    "excerpt": "Evento traz shows e oficinas gratuitas para a cidade.",
+    "title": "IBM: 78% das empresas brasileiras aumentarão investimentos em IA até o fim de 2025",
+    "excerpt": "Metade das empresas busca IA de código aberto para otimizar os investimentos.",
     "content": "Conteúdo completo da notícia 3...",
     "videoUrl": "",
-    "thumbnail": "/sample-thumb.jpg"
+    "thumbnail": "/Homem-Branco.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Bancos brasileiros investirão 13% mais em tecnologia em 2025, com foco em IA, Cloud e Pix",
+    "excerpt": "Os investimentos devem alcançar R$ 47,8 bilhões, com forte impulso em IA, nuvem e analítica",
+    "content": "Conteúdo completo da notícia 4...",
+    "videoUrl": "",
+    "thumbnail": "/Bancos-Brasil.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Em 2025, empresas aumentam investimentos em IA mas dados travam avanços no Brasil",
+    "excerpt": "Apesar do orçamento em IA crescer, 57% ainda estão na fase de prova de conceito; desafios de dados limitam escalabilidade.",
+    "content": "Conteúdo completo da notícia 5...",
+    "videoUrl": "",
+    "thumbnail": "/2-Progamadores.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Brasil lidera investimentos em TI na América Latina, aponta estudo da ABES",
+    "excerpt": "Investimentos em TI somaram US$ 58,6 bi em 2024 e devem crescer mais em 2025",
+    "content": "Conteúdo completo da notícia 6...",
+    "videoUrl": "",
+    "thumbnail": "/ABES.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Mercado brasileiro de software deve crescer 9,5% em 2025",
+    "excerpt": "Projeção supera a média global e aponta para forte demanda em ambientes híbridos",
+    "content": "Conteúdo completo da notícia 7...",
+    "videoUrl": "",
+    "thumbnail": "/Progamadora.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Investimento em TIC no Brasil alcança US$ 90 bilhões em 2024, alta de 14%",
+    "excerpt": "Dados mostram modernização de data centers, redes corporativas e crescimento da IA",
+    "content": "Conteúdo completo da notícia 8...",
+    "videoUrl": "",
+    "thumbnail": "/Codigo.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Gastos globais com TI devem crescer 8% em 2025, com 70% entregues por parceiros",
+    "excerpt": "Segundo relatório, a TI via parceiros deve representar a maior parte dos investimentos globais",
+    "content": "Conteúdo completo da notícia 9...",
+    "videoUrl": "/videos/sample-video.mp4",
+    "thumbnail": "/Sifrao.jpg"
+  },
+  {
+    "id": 10,
+    "title": "South Summit Brasil 2025 reúne mais de 3.000 startups e investidores em tecnologia",
+    "excerpt": "Evento fortalece o ecossistema latino-americano de inovação e tecnologia.",
+    "content": "Conteúdo completo da notícia 10...",
+    "videoUrl": "",
+    "thumbnail": "/Nave.jpg"
   }
 ]
