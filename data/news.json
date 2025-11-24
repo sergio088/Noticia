@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Avanços na Tecnologia Biónica",
+    "excerpt": "Pesquisadores anunciam prótese que adapta força automaticamente.",
+    "content": "Conteúdo completo da notícia 1...",
+    "videoUrl": "/videos/sample-video.mp4",
+    "thumbnail": "/sample-thumb.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Economia Local Cresce 3%",
+    "excerpt": "Setor de serviços impulsiona crescimento no último trimestre.",
+    "content": "Conteúdo completo da notícia 2...",
+    "videoUrl": "",
+    "thumbnail": "/sample-thumb.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Festival Cultural Reúne Artistas",
+    "excerpt": "Evento traz shows e oficinas gratuitas para a cidade.",
+    "content": "Conteúdo completo da notícia 3...",
+    "videoUrl": "",
+    "thumbnail": "/sample-thumb.jpg"
+  }
+]
