@@ -37,19 +37,72 @@ body{
   letter-spacing:0.3px;
 }
 
-.main-banner{
-  background: linear-gradient(90deg, #0ea5e9 0%, #6366f1 100%);
-  color:white;
-  border-radius:10px;
-  padding:28px;
-  margin:14px 0;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+.main-banner {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Aqui você coloca a imagem como fundo */
+  background: url("/emoji.jpg") center/cover no-repeat;
 }
-.banner-content{max-width:900px; text-align:center}
-.banner-content h2{margin:0 0 8px; font-size:1.6rem}
-.banner-content p{margin:0 0 12px; opacity:0.95}
+
+/* camada escura por cima da imagem */
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.50);
+}
+
+.banner-content {
+  position: absolute;
+  bottom: 20px;      /* distância do fundo */
+  left: 20px;        /* distância da borda esquerda */
+  z-index: 2;
+  text-align: left;
+  color: white;
+  max-width: 800px;
+  padding: 0;        /* pode remover o padding, já que está usando offset */
+}
+
+
+/* “Código da internet” */
+.banner-category {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+/* título grande */
+.banner-content h2 {
+  font-size: 32px;
+  line-height: 1.3;
+  margin: 0 0 20px 0;
+  font-weight: 700;
+}
+
+/* botão */
+.banner-button {
+  display: inline-block;
+  background: #2563eb;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.banner-button:hover {
+  background: #1e40af;
+}
+
 .read-more{
   display:inline-block;
   padding:8px 12px;

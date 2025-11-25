@@ -1,10 +1,15 @@
-export default function MainBanner({ title = "Título principal", subtitle = "" }) {
+export default function MainBanner({ 
+  title = "Notícia em destaque", 
+  subtitle = "A história do emoticon :-) e como ele mudou a comunicação online" 
+}) {
   return (
-    <div className="main-banner" role="region" aria-label="Faixa principal de conteúdo">
+    <div className="main-banner">
+      <div className="banner-overlay"></div>
+
       <div className="banner-content">
-        <h2>{title}</h2>
-        <p>{subtitle}</p>
-        <a className="read-more" href="#feed">Ver notícias</a>
+        <span className="banner-category">CÓDIGO DA INTERNET</span>
+        <h2>A história do emoticon :-) e como ele mudou a comunicação online</h2>
+        <a className="banner-button" href="#feed">Ver notícias</a>
       </div>
     </div>
   );
